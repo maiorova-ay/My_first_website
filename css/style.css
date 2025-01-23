@@ -1,0 +1,36 @@
+body {
+    background-image: url('../image/windows_xp.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black; 
+}
+.col-5 {
+    text-align: center;
+    height: 50px;
+}
+.logo-container {
+    background-color: #0000FF; 
+    padding: 10px 20px; 
+    text-align: left; 
+    border-bottom: 1px solid #FFFF00; 
+}
+.logo {
+    max-width: 150px; 
+    height: auto; 
+}
+.gif-container {
+    position: fixed; 
+    bottom: 75px; 
+    left: 70px; 
+    z-index: 1000; 
+}
+.gif-container img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 20px; 
+}

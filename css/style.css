@@ -26,11 +26,31 @@ body {
 .gif-container {
     position: fixed; 
     bottom: 75px; 
-    left: 70px; 
+    left: 700px; 
     z-index: 1000; 
 }
 .gif-container img {
     width: 200px; 
     height: 200px; 
     border-radius: 20px; 
+}
+.col-7 {
+    font-weight: 100px;
+    height: 550px;
+}
+.button_js {
+    text-align: right;
+}
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #FFFF00;
+    color: black;
+    font-weight: bold;
+}
+#demo img {
+    margin-top: 10px;
+    width: 13%;
 }
